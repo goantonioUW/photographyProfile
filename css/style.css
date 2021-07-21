@@ -75,7 +75,7 @@ h1 {
 	line-height: 1.6;
 }
 
-/* Nav styling */
+/***************** Nav styling *****************/
 nav {
 	float: left;
 	padding: 5% 5% 0 0;
@@ -124,4 +124,110 @@ nav:hover ul {
 	background: url(../img/nav-icon.png) center;
 	display: inline-block;
 	margin: 50px 0 0 50px;
+}
+/**************** End of Nav *********************/
+
+.left-col {
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+
+.one-third-port {
+	width: 28%;
+	padding: 2%;
+	float: left;
+	display: inline-flex;
+}
+.one-third-port img:hover {
+	opacity: .6;
+}
+
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.contact a {
+	color: #2c2c2c;
+	text-decoration: none;
+}
+
+.break {
+	display: none;
+}
+
+.clearfix {
+	clear: both;
+	height: 5%;
+}
+
+/***************** The fixed background image **********************/
+.parallax {
+	background: url("https://ca-times.brightspotcdn.com/dims4/default/f5a56d2/2147483647/strip/true/crop/6688x4458+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0d%2F58%2F79797ec14bdfb6fc421d8402f801%2Fla-photos-1staff-477327-fi-sneaker-collection-gxc-0133.JPG")  repeat fixed 100%;
+	opacity: .5;
+}
+.parallax-inner {
+	padding-top: 20%;
+}
+
+/*************** Social Media links ******************/
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+.social li {
+	display: inline;
+}
+
+.social i {
+	font-size: 3rem;
+	margin: 1% 5% 7% 4%;
+	color: #4149be;
+}
+
+.social i:hover {
+	color: #090f66;
+}
+
+/**************** This styling is for the bottom footer created by *****************/
+footer.second {
+	background-color: #2c2c2c;
+}
+
+footer.second p {
+	color: #fff;
+	text-align: center;
+	padding: 2%;
+}
+
+@media screen and (max-width: 768px) {
+	#menu-icon {
+		margin: 26px 0 0 26px;
+	}
+	nav ul, nav:active ul {
+		padding: 8px 0;
+		left: 25px;
+		top: 35px;
+		width: 50%;
+	}
+	.inner {
+		font-size: 2rem;
+	}
+	.content h1 {
+		font-size: 1.5rem;
+	}
+	p{
+		font-size: 1.5rem
+	}
+	h2 {
+		font-size: 1.8rem;
+	}
+
 }
