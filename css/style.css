@@ -140,10 +140,10 @@ nav:hover ul {
 }
 
 .one-third-port {
-	width: 28%;
-	padding: 2%;
+	width: 22%;
+	padding: 2.5%;
 	float: left;
-	display: inline-flex;
+	display: grid;
 }
 .one-third-port img:hover {
 	opacity: .6;
@@ -218,16 +218,46 @@ footer.second p {
 		width: 50%;
 	}
 	.inner {
-		font-size: 2rem;
+		font-size: 120%;
 	}
 	.content h1 {
-		font-size: 1.5rem;
+		font-size: 300%;
 	}
 	p{
-		font-size: 1.5rem
+		font-size: 120%;
 	}
 	h2 {
-		font-size: 1.8rem;
+		font-size: 160%;;
 	}
+	.left-col {
+		width: 95%;
+		padding: 0 2%;
+		margin: 0 0 3% 0;
+	}
+	.sidebar {
+		width: 90%;
+		margin: 0 auto;
+	}
+	img {
+		padding: 2%;
+	}
+
+	.one-third-port {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.break {
+		display: block;
+	}
+
+	.parallax {
+		display: none;
+	}
+	.social i {
+		font-size: 170%;
+	}
+
 
 }
