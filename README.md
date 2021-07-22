@@ -5,4 +5,6 @@ This design hs 4 different sections displaying a persons about me, portfolio (of
 ## The live link
 https://goantoniouw.github.io/photographyProfile/
 
-## Screenshots coming soon
+## Live demo
+
+![Live demo](https://media.giphy.com/media/47HE1KynwDPVWU2xxe/giphy.gif)
